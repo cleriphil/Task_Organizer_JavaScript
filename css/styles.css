@@ -1,3 +1,12 @@
 #show-category {
   display: none;
 }
+
+.category {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.category:hover {
+  text-decoration: underline;
+}
