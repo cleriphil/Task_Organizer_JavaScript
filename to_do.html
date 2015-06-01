@@ -10,23 +10,43 @@
   <body>
     <div class="container">
 
-      <div class="row">
-          <h2>Add a Category:</h2>
-          <form class="new-category">
-            <div class="form-group">
-              <label for="new-category">Category:</label>
-              <input type="text" class="form-control" id="new-category">
-            </div>
-            <button type="submit" class="btn">Add</button>
-          </form>
+      <h2>Add a Category:</h2>
+      <form id="new-todolist">
+        <div class="form-group">
+          <label for="new-category">Category:</label>
+          <input type="text" class="form-control" id="new-category">
         </div>
 
-        <div id="show-category">
-          <h2></h2>
-          <p>Tasks:</p>
-          <ul id="tasks">
-          </ul>
+        <div id="new-tasks">
+          <div class="new-task">
+            <div class="form-group">
+              <label for="new-description">Description of Task</label>
+              <input type="text" class="form-control new-description">
+            </div>
+            <div class="form-group">
+              <label for="new-notes">Notes</label>
+              <input type="text" class="form-control new-notes">
+            </div>
+          </div>
         </div>
+
+        <span class="btn btn-default" id="add-task">Add Another Task</span>
+
+        <button type="submit" class="btn btn-default">Add List</button>
+      </form>
+
+
+
+      <h2>Categories:</h2>
+      <ul id="categories"></ul>
+
+      <div id="show-category">
+        <h2></h2>
+        <p>Tasks:</p>
+        <ul id="tasks">
+        </ul>
+      </div>
     </div>
+
   </body>
 </html>
