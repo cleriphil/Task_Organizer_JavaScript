@@ -1,4 +1,4 @@
-## Task_Organizer
+## Task Organizer
 
 ## Description:
 Task Organizer is an app that allows a user to keep track of lists of tasks. 
