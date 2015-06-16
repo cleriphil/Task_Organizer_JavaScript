@@ -6,7 +6,7 @@ The user may add and view tasks.
 
 ## Setup Instructions:
 
-- Clone project in desktop
+- Clone project in desktop  
 - Open html file to launch browser
 
 MIT License
